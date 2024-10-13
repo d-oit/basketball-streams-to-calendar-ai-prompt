@@ -146,7 +146,6 @@ const deleteEventExists = async (event) => {
         normalizeTitle(existingEvent.summary) === normalizeTitle(event.eventTitle) &&
         isSameDate(existingStartDate, startDate);
 
-      
       i++;
       if ((i) % 10 === 0) {
         setTimeout(function() { console.log("waiting for 1 second - del"); }, 1000);
