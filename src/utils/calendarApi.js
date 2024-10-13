@@ -105,8 +105,9 @@ const checkEventExists = async (event) => {
 };
 
 function normalizeTitle(title) {
-  return title.replace(/\bvs\.?\b/gi, 'vs').toLowerCase();
+  return title.replace(/\b(at|vs\.?|gegen|-)\b/gi, 'vs.').toLowerCase();
 }
+
 
 const deleteEventExists = async (event) => {
   const events = await getExistingEvents();
@@ -127,18 +128,24 @@ const deleteEventExists = async (event) => {
   let i = 0;
   await Promise.all(
     events.map(async (existingEvent) => {
-      const existingStartDate = new Date(
-        existingEvent.start.dateTime
-      ).toDateString();
-      const existingEndDate = new Date(
-        existingEvent.end.dateTime
-      ).toDateString();
-      const startDate = new Date(startDateTime).toDateString();
-      const endDate = new Date(endDateTime).toDateString();
+      if (existingEvent.status === "cancelled") {
+        return; // Skip this event
+      }
 
+      const existingStartDate = new Date(existingEvent.start.dateTime);
+      const existingEndDate = new Date(existingEvent.end.dateTime);
+      const startDate = new Date(startDateTime);
+      const endDate = new Date(endDateTime);
+      
+      const isSameDate = (date1, date2) => 
+        date1.getFullYear() === date2.getFullYear() &&
+        date1.getMonth() === date2.getMonth() &&
+        date1.getDate() === date2.getDate();
+      
       const eventExists =
-      normalizeTitle(existingEvent.summary) === normalizeTitle(event.eventTitle) &&
-        existingStartDate === startDate;
+        normalizeTitle(existingEvent.summary) === normalizeTitle(event.eventTitle) &&
+        isSameDate(existingStartDate, startDate);
+
       
       i++;
       if ((i) % 10 === 0) {
@@ -146,11 +153,11 @@ const deleteEventExists = async (event) => {
         refreshToken();
         i = 0;
       }
-      console.log("existingEvent:", existingEvent);
+
       if (eventExists) {
         console.log("Event already exists:", event);
         console.log("Remove event Id:", existingEvent.id);
-       
+
         await window.gapi.client.calendar.events
           .delete({
             calendarId: CALENDAR_ID(),
