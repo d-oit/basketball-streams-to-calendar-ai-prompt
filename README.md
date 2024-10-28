@@ -1,10 +1,8 @@
 # d.o.it Prompt2GCal
 
-Basketball live streams prompt  google calendar events creator
-
+Basketball live streams prompt google calendar events creator with Gemini
 
 ![logo](https://github.com/user-attachments/assets/36223ad0-bc5e-4268-ad61-8b1dc3e38952)
-
 
 Initial created with GPT Engineer
 
@@ -12,17 +10,20 @@ Initial created with GPT Engineer
 
 Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/73ba8942-60d2-4233-8a1f-df08624465f6/improve) and start prompting.
 
-# Quickstart/Demo
+## Quickstart/Demo
 
 - Configure the the application
-- Paste the live streams into the text field
+- Copy and paste the live streams into the textarea field
 - Start the analyzer
 
+![image](https://github.com/user-attachments/assets/09cc1666-ebd9-4921-a471-a936f46c17f5)
+
 ## Configuration
+
 - Get your google gemini api key (aistudio) and google calendar  in the console.cloud.google.com (search for google calendar api quickstart javascript)
 - Set up your API keys and Calendar ID in the **Configuration** section. The configuration save and load the configuration from the Browser localStorage.
 
-# Table of Contents
+## Table of Contents
 
 - [d.o.it Prompt2Cal](#doit-prompt2cal)
 - [Quickstart/Demo](#quickstartdemo)
@@ -34,7 +35,7 @@ Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/
 - [Discussions / Issue](#discussions-issue)
 - [License](#license)
 
-## Project info
+### Project info
 
 **Project**: d.o.it Prompt2Cal
 
@@ -53,7 +54,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-# Functions
+## Functions
 
 - Analyze basketball live stream text using AI
 - Extract event details including title, date, time, and location
@@ -64,25 +65,21 @@ This project is built with:
 - Fully responsive design for mobile and desktop use
 - PWA support for installation on devices
 
-
 created a bad video for testing purposes ONLY :smirk:
-
 
 https://github.com/user-attachments/assets/30a9d632-53fa-4764-8983-7ce7e2e1cb82
 
-
 Not faster, better then obs or OpenShot. Was hoping to create something fast with a recorder video or a few screenshots. 
-
 
 [(Back to top)](#table-of-contents)
 
-# Discussions / Issue
+### Discussions / Issue
 
 Use the discussions for questions first before creating an issue.
 
 [(Back to top)](#table-of-contents)
 
-# License
+## License
 
 [MIT](https://github.com/d-oit/basketball-streams-to-calendar-ai-prompt/blob/main/LICENSE)
 
