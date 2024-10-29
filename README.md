@@ -39,7 +39,7 @@ Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/
 
 **Project**: d.o.it Prompt2Cal
 
-Initial created with **GPTengieer**
+Initial created with **GPT Engineer**
 
 **Use GPT Engineer**
 
