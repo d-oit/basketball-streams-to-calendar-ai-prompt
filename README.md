@@ -4,11 +4,8 @@ Basketball live streams prompt google calendar events creator with Gemini
 
 ![logo](https://github.com/user-attachments/assets/36223ad0-bc5e-4268-ad61-8b1dc3e38952)
 
-Initial created with GPT Engineer
+Created result on the [Website: Overview of free broadcasts of basketball games in Germany](https://d-oit.github.io/en/blog/free-basketball-live-streams/)
 
-**Use GPT Engineer**
-
-Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/73ba8942-60d2-4233-8a1f-df08624465f6/improve) and start prompting.
 
 ## Quickstart/Demo
 
@@ -40,10 +37,6 @@ Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/
 **Project**: d.o.it Prompt2Cal
 
 Initial created with **GPT Engineer**
-
-**Use GPT Engineer**
-
-Simply visit the GPT Engineer project at [GPT Engineer](https://gptengineer.app/projects/73ba8942-60d2-4233-8a1f-df08624465f6/improve) and start prompting.
 
 ## What technologies are used for this project?
 
