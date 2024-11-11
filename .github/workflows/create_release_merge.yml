@@ -20,7 +20,7 @@ jobs:
 
       - name: Bump Version
         id: bump_version
-        uses: phips28/gh-action-bump-version@v7.1.5
+        uses: phips28/gh-action-bump-version@v11.0.7
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           tag-prefix: 'v'
