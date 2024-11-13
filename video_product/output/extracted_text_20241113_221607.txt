@@ -1,0 +1,411 @@
+_ |
+Ga ee PT vas
+Prompt2Cal a
+Biba ie sens pik 0
+Enter baskatbail live Stream text sre:
+8:
+(CD .Show.output details , Sample Data: | ¢Prompt | Google Calendar |
+
+Togin to google accounts
+
+|
+Info:
+Eyasting: calendan“entines‘with’ the: sane"title'on"theysane ;data sare, deleted, before! created thesnen ‘entry.
+
+_ |
+Ga ee PT vas
+Prompt2Cal a
+Biba ie sens pik 0
+Enter baskathail live Stream text heres
+8:
+(CD .Show.output details , Sample Data: | ¢Prompt | Google Calendar |
+
+Togin to google accounts
+
+|
+Info:
+Eyasting: calendan“entines‘with’ the: sane"title'on"theysane ;data sare, deleted, before! created thesnen ‘entry.
+
+a |
+fas Me ry vpat
+Prompt2Cal f=
+Basketball live streams Input: “
+Enter basketball live'stream text hére:.:.
+Mo:
+Show output details:, .Sample Data: | | :Prompt Google Calendar. (7. |
+Analyze the following basketball live stream text ‘and extractevent details in JSON format as json-array... =
+
+Use the year 2024 is no year:is included ina date.
+Ignore dates which the word Eishockey, Fussball, Volleyball included in’a date description, ;
+Do not create the same-event title on the samé date. Always.use “vs.” if-you rieed to insert a'separating Word.
+Don't format the json’with markdown, only plaintext: :
+s{text}
+“Please. provide the following informaticn in JSON:*
+
+ae ec]
+fas Me ry spat
+Prompt2Cal f=
+Basketball live streams Input: “
+20.09.24 — Se Bi
+ProA: VET-CONCEPT Gladiators Trier'vs. Tigers Tubingen '
+“VET-CONCEPT Gladiators Trier :
+'VET-CONCEPT. Gladiators Trier
+“Basketball
+*“VET-CONCEPT Gladiators Trier
+“VS. .
+Tigers, Tubingen =
+inninn hE
+Show output details. Sampie Data: | | {Prompt || Googie’ Calendar @ |
+Analyze the following basketball live stream text ‘and extractevent details in JSON format as json-array... =
+Use the year 2024 is no year:is included ina date.
+Ignore dates which the word Eishockey, Fussball, Volleyball included in’a date description, ;
+Do not create the same-event title on the samé date. Always.use “vs.” if-you rieed to insert a'separating Word.
+Don't format the json’with markdown, only plaintext: :
+s{text}
+“Please. provide the following informaticn in JSON:*
+
+ne fas
+Prompt2Cal f=
+Basketball live streams Input: “
+20.09.24 — Se Bi
+ProA: VET-CONCEPT Gladiators Trier'vs. Tigers Tubingen '
+“VET-CONCEPT Gladiators Trier :
+'VET-CONCEPT. Gladiators Trier
+“Basketball
+‘VET-CONCEPT Gladiators Trier
+“VS. .
+Tigers, Tubingen =
+inn
+Show output details Sampie Data: Googie Calendar. |
+Analyze the following basketball live stream text ‘and extract'event details in JSON format as json-array... =
+Use the year 2024 is no year:is included ina date.
+Ignore dates which the word Eishockey, Fussball, Volleyball included in’a date description, ;
+Do not create the same-event title on the samé date. Always.use “vs.” if-you rieed to insert a'separating Word.
+Don't format the json’with markdown, only plaintext: :
+s{text}
+“Please. provide the following informaticn in JSON:*
+
+sscee aan Kaa
+retains Be. ae (|
+Prompt2Cal [3
+Basketball live'streams Input: «
+"20.09.24 Es
+“PrOA:,VET-CONCEPT. Gladiators Trier.vsy Tigers Tubingen : Ld
+WET-CONCEPT Gladiators Trier’ _ ,
+‘VET-CONCEPT. Gladiators Trier:
+“Basketball
+"VET-CONOEPT, Gladiators Trier:
+WS.
+‘Tigers-Tabingen’ 2s
+be cea eg Te een | (woman | ( aecute inoue, oo)
+© Stiow output detaits:| Sample'Data;| | :Prampt: || Google Calendar. 7.
+Analyze 'the following basketball live ‘stteam text'and extract event details in JSON format ‘as json array. . Ss -
+"Use the year 2024'is no, year is included in'a date:
+ignore dates which the word Eishockey, Fussball; Volleyball incliided in’a date description: os
+Do ‘not create the ‘same event title on the samié daté: Always usé."vs."if-you heed to insért-a separating word...
+Don't format the json‘with markdowi, only plaintext.» ' :
+text}
+Pléase. provide the following information in JSON:::
+a
+
+Loe ; . re
+Prompt2Cal (3)
+Basketball live streams Input: «
+"20:09:24 i
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen :
+:VET-CONCEPT, Gladiators Tier
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+“VET-CONCEPT. Gladiators ‘rier
+“VS, oo. |
+. Tigers: Tabingen a
+(a Show output details: | Sain Oats “Prompt; | | Google‘Calendar.
+-Analyze the following basketball live stream text and extract event details in JSON format as json array. A -
+‘Use the year-2024'is no year is included in a datex ;
+Ignore dates which the word Eishockey, Fussball; Volleyball included ina date description, ;
+Do not créate the'same evenit title on the same date: Always Use.“Vs."-if you nééd to insert a separating word.
+Don't fotmat the json'iwith markdowi, only plaintext::” a 7
+text}
+Please provide the follawing information inJSON::
+nn
+
+Loe ; . re
+eras ae eeeee Pa
+Prompt2Cal (3)
+Basketball live streams Input: «
+"20:09:24 i
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen :
+:VET-CONCEPT, Gladiators Tier
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+“VET-CONCEPT. Gladiators ‘rier
+“VS, oo. |
+. Tigers: Tabingen a
+(a Show output details: | Sain Oats “Prompt; | | Google‘Calendar.
+-Analyze the following basketball live stream text and extract event details in JSON format as json array. A -
+‘Use the year-2024'is no year is included in a datex ;
+Ignore dates which the word Eishockey; Fussball; Volleyball included ina date description, ;
+Do not créate the'same evenit title on the same date: Always Use.“Vs."-if you nééd to insert a separating word.
+Don't fotmat the json'iwith markdowi, only plaintext::” a 7
+text}
+Please provide the follawing information inJSON::
+nn
+
+Loe ; . re
+eran ae eeeee oe
+Prompt2Cal a
+Basketball live streams Input: «
+"20:09:24 i
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen ~
+.VET-CONCEPT Glatlators Tier”
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+“VET-CONCEPT. Gladiators ‘rier
+“VS, oo. |
+. Tigers: Tabingen a
+()-stiow output details] Sample Data, || “prompt: || Googie'calendar ci
+;Afialyze the following basketball live’ stream text ang extract event details in JSON format as json-array.. | :
+‘Use the year-2024'is no year is included in a datex ;
+Ignore dates which the: word Eishiockey, Fussbial Volleyball includied if’ date eseription,
+Do not créate the'same event title.on the same date: Always Use."Vs."-if you nééd to insert a separating word.
+Don't fofmat the json'iwith markdowi, only plaintext.» ” a 7
+I !
+text}
+Please provide the following information in-JSON::
+nn —
+
+Loe ; . re
+eras ae eeeee Pa
+Prompt2Cal a
+Basketball live streams Input: «
+"20:09:24 i
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen :
+:VET-CONCEPT, Gladiators Tier
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+“VET-CONCEPT. Gladiators ‘rier
+“VS, oo. |
+. Tigers: Tubingen’ a
+()-stiow output details] Sample Data, || “prompt: || Googie'calendar ci
+—— =
+;Afialyze the following basketball live’ stream text ang extract event details in JSON format as json-array.. | :
+‘Use the year 2024'is no year is included in a datex ;
+Ignore dates which the word Eishockey; Fussball; Volleyball included ina date description, ;
+Do not créate the'same evenit title on the same date: Always Use.“Vs."-if you nééd to insert a separating word.
+Don't fotmat the json'iwith markdowi, only plaintext::” a 7
+text}
+Please provide the follawing information inJSON::
+nn
+
+Loe ; . re
+Prompt2Cal a
+Basketball live streams Input: «
+"20:09:24 i
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen ~
+.VET-CONCEPT Glatlators Tier”
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+“VET-CONCEPT. Gladiators ‘rier
+“VS, oo. |
+. Tigers: Tabingen a
+©) ‘Stiow output details!) Sample'Data; | | “Prompt: | | Goagie Calendar i
+;Afialyze the following basketball live’ stream text ang extract event details in JSON format as json-array.. | :
+‘Use the year-2024'is no year is included in a datex ;
+Ignore dates which the: word Eishiockey, Fussbial Volleyball includied if’ date eseription,
+Do not créate the'same event title.on the same date: Always Use."Vs."-if you need to insert a separating word.
+Don't fofmat the json'with markdowi, only plaintext::” a 7
+I !
+text}
+Please provide the following information in-JSON::
+nn —
+
+Loe ; . re
+eras ae eeeee oe
+Prompt2Cal a
+Basketball live streams Input: «
+“20.69.24 es
+‘ProA: VET-CONCEPT. Gladiators Trier Vs: Tigers: Tubingen :
+.VET-CONCEPT Glatlators Tier”
+‘VET-CONCEPT. Gladiators Trier’
+“Basketball
+‘NET-CONCEPT. Gladiators Trier
+“VS, oo. |
+. Tigers: Tabingen a
+©) -stiow output details] Sample Data, || “prompt: || Googie'calendar ci
+—— =
+;Afialyze the following basketball live’ stream text ang extract event details in JSON format as jgon array... | :
+‘Use the year 2024'is no year is included in a datex ; :
+ignore dates which the word Eishockey, Eusshall: Volleyball included ina ‘date description. .
+Do not créate the'same event title.on the sanie date: Always Use.“Vs.",if you nééd to insert a separating word.
+Don't format the igor with markdown, only plainitext:. , ‘ ‘ : .
+AMtext}
+Please provide the follawing information inJSON::
+nn
+
+Ss _>O__~+»«wwwe_e»q_e mm i  @Oi™m2@i @  ————MGBD—— aa
+2008.24 A
+:ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen
+“‘VET-CONCEPT:Gladiators Trier,” _
+
+MET-CONCEPT. Gladiators ‘Trier: i
+Basketball
+
+-VET-CONCEPT: Gladiators Trier’
+
+vs. a
+
+Tigers Tabingéen 2
+
+0 Show output details. ‘Sample Data: Prompt | + Google Calendar: (7
+
+| Analyze the following basketball livé stream text and extract event details in YSON format as jgon‘array.- 5
+“Use the. year 2024'is no year.is'included in'a date: _- - ae
+:Ignore-dates which the word Eishockey, Eussbal), Volleyball included in a date description: ns
+‘Do not create the same event title’on the same date: Always use-"ys.".if you need to insert'@ separating word,
+
+‘Don't format the igqn with markdown, only plaintext:
+
+AEX
+‘Pleasé provide the following information in JSON:
+
+seventTitle: String -... - re iA
+
+nn ae Ae ee Sd ee ate i anna, i
+
+| fice to. google accom
+
+‘Configuration a
+
+3 Prompt2Cal
+Basketball live streams Input: w
+Gontiguration A:
+Loading:
+
+ae Prompt2Cal
+Basketball live streams Inputs w
+Configuration A:
+Loading. .
+
+& Prompt2Cal [s)
+Basketball live streams input: we
+.Configuration a
+Loadifig...
+
+= __ |
+Prompt2Cal. [2
+Bedkdibal ve stream input, w
+Configuration: «
+Gemini‘AP| key
+
+Enter your Gemint API Key,
+Google Calendar Client ID:
+i Enter your Google Client ID |
+Google Calendar. APt Key.
+
+Enter-your'Googlé API Key -
+Google.Calendar.Id .
+Enter your.Google Calendar 1D
+Save.the configuration to the Browser locaiStorage.
+
+= __ |
+Prompt2Cal [2
+dedkdibal ve Stream input, w
+Configuration : “
+Gemini‘AP| key
+
+Enter your Gemint API Key,
+Google Calendar Client ID?
+i Enter your Google Client ID |
+Google Calendar. APt Key.
+
+Enter-your'Googlé API Key -
+Google.Calendar.Id
+Enter your.Google Calendar 1D
+Save.the configuration to the Browser locaiStorage.
+
+_ : . baa
+‘Prompt2Cal
+Basketball live streams Input; we
+ee :
+Configuration: “
+Cerniti ABI RY:
+
+Enter your GemintAPl Key
+Goodie Calendar. Client ID!
+[ter yout Googe Gren |
+Google Calendar. API Key.,
+
+Enter. your Google’ API Key:
+Google-Calendar la
+Enter youir Googie CalendarID:
+
+Save configuration
+Sie iis Sif gurStion ie tie Browser IDESISTOFENS.,
+
+cen . . i
+Prompt2Cal’
+
+Basketball ive streams Input, ws
+Sontigurtion: . ~
+Si API REY
+
+GoosIe Calendar Client 1D:
+
+Gadile Ciena Abi Key
+
+Google Calendar Id .
+
+Save is eaiiguiaionta tha sraweei iobarstorage.,
+
+Brompt2Cal |
+Basketball live streams Input; vs
+Cénfieuaion ~
+
+Sainink ABTS:
+
+boule Calendar ier 19;
+
+GobQle Caled API Key:
+
+Gooale Calendar Ia
+
+|
+Se thie GeitguBtis tthe Browsér localstorage.
+
+Prompt2Cal. }
+Basketball live streams input; vs
+Contieuslion: ~
+
+Sarnia APTRGY:
+
+Seva Glenda cet 0:
+
+[Enter you Goodie Gientio
+
+Godglé Caieiidar API Key
+
+Google;Calender Id
+
+“Ehier jour Goods Gaiendorb ]
+
+|
+Se this GeitguBtisn tthe Browssr localstorage.
+
+Prompt2Cal ,
+Basketball live, sireams input: we
+Confusion ,
+
+Sainint ABTS:
+
+Gooolé Calendar Cleo:
+
+Enter your Googie Client ib
+
+bai alt Ay
+
+Google.Calendar Id
+
+‘Enter your Google Calender) ]
+
+|
+Seve iui ts we owe acaioiage.

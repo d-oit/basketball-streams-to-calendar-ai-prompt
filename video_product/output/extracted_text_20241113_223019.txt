@@ -1,0 +1,40 @@
+Optimized text:
+
+Prompt2Cal: Basketball Live Streams Input
+
+Enter basketball live stream text here...
+
+Instructions:
+
+1. Analyze the basketball live stream text and extract event details in JSON format.
+2. Use the year 2024 only if it is included in the date.
+3. Ignore dates that include the words "Eishockey," "Fussball," or "Volleyball."
+4. Do not create an event title if it already exists on the same date. Use "vs." as a separator if necessary.
+5. Provide the following information in JSON:
+* eventTitle: event title as a string
+* eventDate: event date as a string
+* teams: team names as an array
+* league: league name as a string
+
+Sample Input:
+
+ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen
+
+Sample Output:
+
+{
+"eventTitle": "ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen",
+"eventDate": "20.09.24",
+"teams": ["VET-CONCEPT Gladiators Trier", "Tigers Tubingen"],
+"league": "ProA"
+}
+
+Configuration:
+
+* Enter your Gemini API Key
+* Enter your Google Calendar Client ID
+* Enter your Google Calendar API Key
+* Enter your Google Calendar ID
+* Save the configuration to the Browser localStorage
+
+Note: To run the code, please save it as a .js file and execute it in a JavaScript environment.

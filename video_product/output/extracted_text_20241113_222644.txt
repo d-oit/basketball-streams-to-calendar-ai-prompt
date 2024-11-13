@@ -1,0 +1,64 @@
+Optimized text:
+
+Basketball Live Streams Input:
+Please provide the following information in JSON format:
+
+{
+"event": {
+"title": "ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen",
+"subtitle": "Basketball",
+"date": "2024-09-24",
+"time": "unknown",
+"teams": ["VET-CONCEPT Gladiators Trier", "Tigers Tubingen"]
+}
+}
+
+Instructions:
+
+- Analyze the basketball live stream text and extract event details in JSON format as a json-array.
+- Use the year 2024 if it is included in a date.
+- Ignore dates which include the words "Eishockey", "Fussball", or "Volleyball".
+- Do not create the same event title on the same date. Always use "vs." if you need to insert a separating word.
+- Do not format the JSON with markdown, only plaintext.
+
+Sample Data:
+
+{
+"event": {
+"title": "Sample Event Title",
+"subtitle": "Sample Subtitle",
+"date": "2024-01-01",
+"time": "12:00",
+"teams": ["Team A", "Team B"]
+}
+}
+
+Prompt2Cal Input:
+"20.09.24 ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen"
+
+Explanation:
+
+- The input text is a basketball live stream text.
+- The event title is "ProA: VET-CONCEPT Gladiators Trier vs. Tigers Tubingen".
+- The subtitle is "Basketball".
+- The date is "20.09.24", which is equivalent to "2024-09-24".
+- The time is unknown.
+- The teams are "VET-CONCEPT Gladiators Trier" and "Tigers Tubingen".
+- The JSON format is used to provide the event details.
+- The JSON format includes the event object, which has the following properties:
+	+ title: the event title
+	+ subtitle: the event subtitle
+	+ date: the event date
+	+ time: the event time
+	+ teams: an array of the event teams
+- The instructions for analyzing the basketball live stream text and extracting event details in JSON format are provided.
+- The year 2024 should be used if it is included in a date.
+- Dates that include the words "Eishockey", "Fussball", or "Volleyball" should be ignored.
+- The same event title should not be created on the same date. If necessary, "vs." should be used as a separating word.
+- The JSON format should not be formatted with markdown, only plaintext.
+- The sample data is provided in JSON format, with the event object having the following properties:
+	+ title: "Sample Event Title"
+	+ subtitle: "Sample Subtitle"
+	+ date: "2024-01-01"
+	+ time: "12:00"
+	+ teams: ["Team A", "Team B"]
