@@ -12,7 +12,7 @@ import { version } from '@/utils/version';
 
 const Copyright = () => (
   <div className="text-sm text-gray-600 dark:text-gray-400 mr-4">
-    <span>Created 2024 <svg className="h-8 w-8 text-orange-500 inline" width="16" height="16" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />  <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />  <polyline points="12 8 7 3 3 7 8 12" />  <line x1="7" y1="8" x2="5.5" y2="9.5" />  <polyline points="16 12 21 17 17 21 12 16" />  <line x1="16" y1="17" x2="14.5" y2="18.5" /></svg>  <a href="https://d-oit.github.io" className="underline hover:text-gray-800 dark:hover:text-gray-200">d.o.it</a> <HelpDialog /> </span>
+    <span>Created 2024 <svg className="h-8 w-8 text-orange-500 inline" width="16" height="16" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />  <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />  <polyline points="12 8 7 3 3 7 8 12" />  <line x1="7" y1="8" x2="5.5" y2="9.5" />  <polyline points="16 12 21 17 17 21 12 16" /></svg>  <a href="https://d-oit.github.io" className="underline hover:text-gray-800 dark:hover:text-gray-200">d.o.it</a> <HelpDialog /> </span>
   </div>
 );
 
@@ -61,6 +61,15 @@ const ThemeToggle = () => {
 };
 
 const Index = () => {
+  const [accordionState, setAccordionState] = useState(() => {
+    const savedState = localStorage.getItem('accordionState');
+    return savedState ? JSON.parse(savedState) : 'creator';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('accordionState', JSON.stringify(accordionState));
+  }, [accordionState]);
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out bg-white dark:bg-gray-900">
@@ -84,7 +93,7 @@ const Index = () => {
       </header>
       <main className="flex-grow">
         <div className="max-w-6xl mx-auto px-5 sm:px-6 py-8">
-          <Accordion type="single" collapsible defaultValue="creator">
+          <Accordion type="single" collapsible value={accordionState} onValueChange={setAccordionState}>
             <AccordionItem value="creator">
               <AccordionTrigger>Basketball live streams Input</AccordionTrigger>
               <AccordionContent>

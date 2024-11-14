@@ -47,6 +47,16 @@ const handleSignOut = async () => {
     setIsSignedIn(false);
 };
 
+  useEffect(() => {
+    const savedContent = localStorage.getItem('liveStreamText');
+    if (savedContent) {
+      setLiveStreamText(savedContent);
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('liveStreamText', liveStreamText);
+  }, [liveStreamText]);
 
   const addMessage = (message) => {
     setMessages(prevMessages => [...prevMessages, message]);
@@ -139,8 +149,17 @@ const handleSignOut = async () => {
     saveTextFile(detailMessages.join('\n'), 'calendar_results.txt');
   };
 
+  const handleNewButtonClick = () => {
+    setLiveStreamText('');
+  };
+
   return (
     <div className="space-y-4">
+      <div className="flex justify-end">
+        <Button onClick={handleNewButtonClick} variant="outline" size="sm">
+          New
+        </Button>
+      </div>
       <Textarea
         value={liveStreamText}
         onChange={(e) => setLiveStreamText(e.target.value)}
