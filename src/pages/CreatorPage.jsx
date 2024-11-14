@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label";
 import { analyzeWithGemini } from '../utils/geminiApi';
 import { GeminiPrompt } from "@/utils/GeminiPrompt";
 import { createCalendarEvent, GooglesignIn, GooglesignOut, GoogleisSignedIn } from '../utils/calendarApi';
-import { ExternalLink, HelpCircle, Save } from 'lucide-react';
+import { ExternalLink, LucidePlusCircle, Pencil,  HelpCircle, Save } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import HelpDialog from './HelpDialog';
 import sampleData from '@/utils/sampleData';
@@ -155,11 +155,6 @@ const handleSignOut = async () => {
 
   return (
     <div className="space-y-4">
-      <div className="flex justify-end">
-        <Button onClick={handleNewButtonClick} variant="outline" size="sm">
-          New
-        </Button>
-      </div>
       <Textarea
         value={liveStreamText}
         onChange={(e) => setLiveStreamText(e.target.value)}
@@ -168,22 +163,16 @@ const handleSignOut = async () => {
         className="w-full"
       />
       <div className="flex flex-wrap items-center space-x-2 space-y-2 sm:space-y-0">
-        <Checkbox
-          id="show-output"
-          checked={showOutputDetails}
-          onCheckedChange={setShowOutputDetails}
-        />
-        <Label htmlFor="show-output">Show output details</Label>
-        <Button onClick={handleSampleData} variant="outline" size="sm">
-          Sample Data
+        <Button onClick={handleNewButtonClick}>
+          <LucidePlusCircle className="mr-2"/> New
         </Button>
-        <Button onClick={handlePromptData} variant="outline" size="sm">
-          Prompt
+        <Button onClick={handlePromptData}>
+          <Pencil className='mr-2'/> Prompt
         </Button>
         <Button
           onClick={handleOpenGoogleCalendaar}
           variant="outline"
-          size="sm">
+          >
           Google Calendar <ExternalLink className="ml-2 h-4 w-4" />
         </Button>
       </div>
@@ -219,8 +208,21 @@ const handleSignOut = async () => {
             Google Sign Out</Button>
           </>
         )}
+         
+      </div>
+      <div className="flex flex-wrap items-center space-x-2 space-y-2 sm:space-y-0">
+      <Checkbox
+          id="show-output"
+          checked={showOutputDetails}
+          onCheckedChange={setShowOutputDetails}
+        />
+        <Label htmlFor="show-output" className="ml-2"> Show output details</Label>
+        <Button onClick={handleSampleData} variant="outline" size="sm">
+          Sample Data
+        </Button>
       </div>
       <div className="mt-4 p-4 bg-gray-100 dark:bg-gray-800 rounded">
+      
         <h3 className="font-bold mb-2">Info:</h3>
         <pre className="whitespace-pre-wrap text-xs">Existing calendar entires with the same title on the same data are deleted before created the new entry.
         </pre>
