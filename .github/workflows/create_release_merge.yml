@@ -1,13 +1,10 @@
 name: Auto Merge, Update Version, and Release
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
-  merge-update-release:
-    if: github.actor == 'github-actions[bot]'
+  merge-update-release:   
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
