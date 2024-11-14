@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "npx playwright test",
+    "build": "npm run build",
+    "launch": "npm run dev"
+  }
+}
