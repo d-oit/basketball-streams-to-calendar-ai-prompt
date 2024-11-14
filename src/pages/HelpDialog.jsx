@@ -60,13 +60,7 @@ const HelpDialog = () => {
                 <li>Save custom prompts and analysis results</li>
                 <li>Toggle between light, dark, and system themes</li>
                 <li>Fully responsive design for mobile and desktop use</li>
-                <li>PWA support for installation on devices</li>
               </ul>
-            </section>
-
-            <section className='py-6'>
-              <h3 className="text-lg font-semibold">PWA Features</h3>
-              <p>This app is a Progressive Web App (PWA), which means you can install it on your device for offline use and a native app-like experience.</p>
             </section>
 
             <section className='py-6'>
