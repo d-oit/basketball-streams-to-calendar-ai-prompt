@@ -4,12 +4,19 @@ on:
   workflow_dispatch:
 
 jobs:
+
   merge-update-release:   
+    permissions:
+      contents: write
+        
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
+        with:
+          persist-credentials: false
+          ref: ${{ github.ref }}
+          
       - name: Set up Git
         run: |
           git config user.name "github-actions[bot]"
