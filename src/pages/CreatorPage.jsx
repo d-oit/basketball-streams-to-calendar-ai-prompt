@@ -163,13 +163,13 @@ const handleSignOut = async () => {
         className="w-full"
       />
       <div className="flex flex-wrap items-center space-x-2 space-y-2 sm:space-y-0">
-        <Button onClick={handleNewButtonClick}>
+        <Button className="text-sm" onClick={handleNewButtonClick}>
           <LucidePlusCircle className="mr-2"/> New
         </Button>
-        <Button onClick={handlePromptData}>
+        <Button className="text-sm" onClick={handlePromptData}>
           <Pencil className='mr-2'/> Prompt
         </Button>
-        <Button
+        <Button className="text-sm"
           onClick={handleOpenGoogleCalendaar}
           variant="outline"
           >
