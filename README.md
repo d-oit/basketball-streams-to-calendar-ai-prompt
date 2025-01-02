@@ -6,7 +6,6 @@ Basketball live streams prompt google calendar events creator with Gemini
 
 Created result on the [Website: Overview of free broadcasts of basketball games in Germany](https://d-oit.github.io/en/blog/free-basketball-live-streams/)
 
-
 ## Quickstart/Demo
 
 - Configure the the application
