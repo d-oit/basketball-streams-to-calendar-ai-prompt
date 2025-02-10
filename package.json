@@ -90,7 +90,7 @@
     "postcss": "^8.5.1",
     "react-test-renderer": "^19.0.0",
     "release-it": "^18.1.2",
-    "tailwindcss": "^4.0.4",
+    "tailwindcss": "^4.0.5",
     "vite": "^6.1.0"
   },
   "resolutions": {
