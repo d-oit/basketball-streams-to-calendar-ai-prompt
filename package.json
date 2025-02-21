@@ -54,7 +54,7 @@
     "cmdk": "^1.0.0",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.5.2",
-    "framer-motion": "^12.4.5",
+    "framer-motion": "^12.4.7",
     "gapi-script": "^1.2.0",
     "html-to-image": "^1.11.13",
     "input-otp": "^1.4.2",
