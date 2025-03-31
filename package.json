@@ -62,7 +62,7 @@
     "moment-timezone": "^0.5.48",
     "next-themes": "^0.4.6",
     "react": "^19.1.0",
-    "react-day-picker": "^9.6.3",
+    "react-day-picker": "^9.6.4",
     "react-dom": "^19.1.0",
     "react-hook-form": "^7.52.0",
     "react-resizable-panels": "^2.0.19",
