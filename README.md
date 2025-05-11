@@ -1,3 +1,5 @@
+Archive 2025: The Gemini App finally supports clipboard to the personal google calendar. Therefore, the repo is not needed anymore.
+
 # d.o.it Prompt2GCal
 
 Basketball live streams prompt google calendar events creator with Gemini
